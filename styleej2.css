@@ -1,0 +1,49 @@
+hr {
+  border: 2px outset sienna;
+}
+img {
+  border: 3px solid red;
+}
+img[alt] {
+  border-color: black;
+}
+
+.sepia:hover {
+  -webkit-filter: sepia(100%);
+  -moz-filter: sepia(100%);
+  -ms-filter: sepia(100%);
+  -o-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.brillo:hover {
+  -webkit-filter: brightness(15%);
+  -moz-filter: brightness(15%);
+  -ms-filter: brightness(15%);
+  -o-filter: brightness(15%);
+  filter: brightness(15%);
+}
+
+.invertir:hover {
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -ms-filter: invert(100%);
+  -o-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.difuminar:hover {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.gris:hover {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
