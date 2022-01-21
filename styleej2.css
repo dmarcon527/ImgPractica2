@@ -3,6 +3,8 @@ hr {
 }
 img {
   border: 3px solid red;
+  width: 10vmax;
+  height: 10vmax;
 }
 img[alt] {
   border-color: black;
